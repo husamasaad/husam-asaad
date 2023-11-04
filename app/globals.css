@@ -1,27 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Mulish:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+/* font-family: 'Fraunces', serif; */
 
+*,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Fraunces', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+
+@layer utilities {
+  .bg-pattern {
+    width: 867px;
+    height: 871px;
+    flex-shrink: 0;
+  }
+  .elipse-1 {
+    
+  }
+  .elipse-2 {
+    border-radius: 871px;
+    background: rgba(110, 187, 211, 0.20);
+    filter: blur(250px);
+    
+  }
+  .elipse-3 {
+
+  }
+  .elipse-4 {
+    border-radius: 871px;
+    background: rgba(96, 99, 100, 0.20);
+    filter: blur(250px);
+  }
+  .elipse-5 {
+    border-radius: 871px;
+    background: rgba(50, 126, 142, 0.30);
+    filter: blur(250px);
+  }
+  .elipse-6 {
+    width: 867px;
+    height: 871px;
+    flex-shrink: 0;
+  }
+
+  .gradient-text {
+    background-image: linear-gradient(to right, #008080, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient-text-secondary {
+    background-image: linear-gradient(to right, #FFA500, #f5d292);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .flex-center {
+    @apply flex items-center justify-center
+  }
+  .flex-start {
+    @apply flex items-center justify-start
+  }
+  .flex-between {
+    @apply flex items-center justify-between
+  }
+
+  .paddings {
+    @apply px-6 sm:px-36 py-12 sm:py-20
+  }
+  .x-paddings {
+    @apply px-6 sm:px-36
+  }
+  .y-paddings {
+    @apply py-12 sm:py-20
+  }
+
+  .box-shadow-custom {
+    box-shadow: 0px 1.85185px 3.14815px 0px rgba(24, 167, 185, 0.02), 0px 8.14815px 6.51852px 0px rgba(24, 167, 185, 0.04), 0px 20px 13px 0px rgba(24, 167, 185, 0.05), 0px 38.51852px 25.48148px 0px rgba(24, 167, 185, 0.06), 0px 64.81481px 46.85185px 0px rgba(24, 167, 185, 0.08);
+  }
+
+  .no-focus {
+    @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 focus:outline-none !important;
+  }
 }
