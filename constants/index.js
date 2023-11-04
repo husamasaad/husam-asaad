@@ -1,4 +1,7 @@
 
+import { Facebook, Linkedin, Github } from "lucide-react"
+
+
 export const services = [
   {
     id: 0,
