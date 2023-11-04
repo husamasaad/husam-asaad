@@ -2,8 +2,6 @@
 import Image from 'next/image'
 import { Link } from 'nextjs13-progress'
 
-import React from 'react'
-
 const ProjectDetails = ({ project }) => {
   return (
     <section className='x-paddings relative z-20'>

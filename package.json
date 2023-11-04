@@ -16,7 +16,6 @@
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.19.1",
     "axios": "^1.6.0",
-    "botfather": "^3.8.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.290.0",
@@ -31,7 +30,6 @@
     "styled-components": "^6.1.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
-    "telegram-bot-api": "^2.0.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Dot, ScrollText, GraduationCap, PencilRuler, Info } from 'lucide-react'
 import { skills, socialLinks } from '@/constants'
 import { Link } from 'nextjs13-progress'

@@ -1,7 +1,6 @@
 "use client"
 
-import Image from 'next/image'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {
   Popover,
   PopoverContent,
@@ -9,7 +8,6 @@ import {
 } from "@/components/ui/popover"
 import { Menu, X } from 'lucide-react'
 import { Link } from 'nextjs13-progress'
-import { navLinks } from '@/constants'
 
 
 const NavMenu = () => {

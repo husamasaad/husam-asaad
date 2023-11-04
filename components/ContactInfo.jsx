@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import { Link } from 'nextjs13-progress'
-import React from 'react'
-import { Button } from './ui/button'
-import { Mail, Facebook, Linkedin, Phone } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 const ContactInfo = () => {
   return (

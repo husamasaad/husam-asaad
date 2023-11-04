@@ -1,6 +1,5 @@
 
 import { Link } from 'nextjs13-progress'
-import React from 'react'
 import NavMenu from './NavMenu'
 
 const Navbar = () => {
