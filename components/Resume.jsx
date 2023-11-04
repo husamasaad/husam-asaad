@@ -70,19 +70,19 @@ const Resume = () => {
             <Info />  Personal Information :
           </h2>
           <div className='md:pl-12'>
-            <div className='flex-between gap-12 mb-12'>
+            <div className='flex-between gap-12 mb-12 flex-wrap'>
               <h4 className='text-xl text-secondary whitespace-nowrap'>Email :</h4>
               <p className='text-2xl '>husamibnasaad@gmail.com</p>
             </div>
-            <div className='flex-between gap-12 my-12'>
+            <div className='flex-between gap-12 my-12 flex-wrap'>
               <h4 className='text-xl text-secondary whitespace-nowrap'>Phone Number :</h4>
               <p className='text-2xl '>+00249995671784</p>
             </div>
-            <div className='flex-between gap-12 my-12'>
+            <div className='flex-between gap-12 my-12 flex-wrap'>
               <h4 className='text-xl text-secondary whitespace-nowrap'>Location :</h4>
               <p className='text-2xl'>Sudan</p>
             </div>
-            <div className='flex-between gap-12 my-12'>
+            <div className='flex-between gap-12 my-12 flex-wrap'>
               <h4 className='text-xl text-secondary whitespace-nowrap'>Birthdate :</h4>
               <p className='text-2xl'>05 Aug 1999</p>
             </div>
