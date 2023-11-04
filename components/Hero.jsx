@@ -23,7 +23,7 @@ const Hero = () => {
                 <ArrowUpRight size={18} />
               </Button>
             </Link>
-            <Link href="/">
+            <Link href="/husam-asaad-cv.pdf">
               <Button size="xl" variant="outline" className="flex items-center gap-2 text-2xl w-full">
                 <span>Download My CV</span>
                 <Download size={18} />
