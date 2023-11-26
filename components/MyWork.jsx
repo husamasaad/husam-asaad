@@ -2,6 +2,8 @@ import Title from './Title'
 import ProjectCard from './ProjectCard'
 import { getProjects } from '@/sanity/action'
 
+export const revalidate = 90
+
 const MyWork = async () => {
 
   const projects = await getProjects()
