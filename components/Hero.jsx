@@ -9,14 +9,14 @@ const Hero = () => {
   return (
     <header className='x-paddings py-6 w-full relative z-50'>
       <div className='w-full shadow-2xl flex-between flex-col-reverse md:flex-row gap-12 py-12 px-4 md:px-24'>
-        <div className='flex justify-center flex-col gap-4 md:gap-12'>
+        <div className='flex justify-center flex-col gap-4 md:gap-12 '>
           <p className='text-xl md:text-5xl'>
             Hello👋
           </p>
           <h1 className='text-4xl md:text-7xl !leading-[120%] max-md:mb-16 md:whitespace-nowrap'>
             I'm Husam Asaad, a <br /><span className='gradient-text'>Frontend Developer</span>
           </h1>
-          <div className='flex flex-col sm:flex-row sm:items-center gap-6'>
+          <div className='flex flex-col md:flex-row md:items-center gap-6'>
             <Link href="/contact">
               <Button size="xl" className="flex items-center gap-2 text-2xl w-full">
                 <span>Contact Me</span>
