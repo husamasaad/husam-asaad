@@ -10,13 +10,13 @@ export default function About() {
   return (
     <main className="w-full min-h-screen relative z-20">
       <header className='x-paddings py-6 w-full relative z-50'>
-        <div className='w-full shadow-2xl flex-between flex-col-reverse md:flex-row-reverse gap-12 py-12 px-4 md:px-24'>
+        <div className='w-full shadow-2xl flex-between flex-col-reverse lg:flex-row-reverse gap-12 py-12 px-4 md:px-24'>
         <div className='w-full md:w-1/2 flex justify-center flex-col gap-6 md:gap-12'>
           <h1 className='text-3xl md:text-4xl !leading-[120%] my-6 md:my-0'>
             Hello 👋, I am <span className='gradient-text'>Husam</span> 
           </h1>
           <p className='text-2xl !leading-[145%] text-slate-200'>
-            a dedicated self-tuaght web developer, driven by a passion for crafting exceptional user experiences, I am committed to creating responsive, accessible, and visually appealing websites.
+            Enthusiastic and self-taught Frontend Developer with a passion for creating dynamic and visually appealing web applications. Proficient in Next.js, React.js, and Tailwind CSS, I excel in crafting responsive and user-friendly interfaces. Eager to continue learning and contribute to larger projects, with a goal to build a career as a MERN Stack Developer.
             <br /><br />
             I am actively looking for more exciting opportunities, to grow and dive deeper in the world of Frontend Developement, feel free to contact me any time, You have a project in mind? I am interested to listen..
 
@@ -28,7 +28,7 @@ export default function About() {
             </Button>
           </Link>
         </div>
-          <div className='w-1/2'>
+          <div className='w-full md:w-1/2'>
             <Image 
               src="/husam-2.jpg"
               width={540}

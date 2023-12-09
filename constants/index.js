@@ -30,7 +30,7 @@ export const services = [
 ]
 
 export const skills = [
-  "HTML", "CSS", "SASS", "Bootstrap", "Tailwind Css", "Javascribt", "React.js", "Next.js", "Sanity CMS", "Git/Github", "Python", "Content Writing"
+  "HTML", "CSS", "SASS", "Bootstrap", "Tailwind Css", "Javascribt", "React.js", "Next.js", "Node.js", "Express.js", "MongoDb", "Mongoose", "Sanity CMS", "Git/Github", "Python", "Content Writing"
 ]
 
 export const socialLinks = [
