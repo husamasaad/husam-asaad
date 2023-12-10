@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <header className='x-paddings py-6 w-full relative z-50'>
       <div className='w-full shadow-2xl flex-between flex-col-reverse lg:flex-row gap-12 py-12 px-4 md:px-24'>
-        <div className='flex justify-center flex-col gap-4 md:gap-12 '>
+        <div className='flex justify-center flex-col gap-4 md:gap-12 max-md:px-4'>
           <p className='text-xl md:text-5xl'>
             Hello👋
           </p>
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
         <div className='w-full md:w-1/2'>
           <Image 
-            src="/husam.jpg"
+            src="/husam.jfif"
             width={540}
             height={540}
             alt="Husam Asaad"
