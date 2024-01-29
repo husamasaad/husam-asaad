@@ -16,7 +16,7 @@ export default function About() {
             Hello 👋, I am <span className='gradient-text'>Husam</span> 
           </h1>
           <p className='text-2xl !leading-[145%] text-slate-200'>
-            Enthusiastic and self-taught Frontend Developer with a passion for creating dynamic and visually appealing web applications. I studied Civil engineering, and out of curiosity and love of learning I explored the world of programming and found a passion for building websites, and started my journey learning by doing, I’ve acquired skills in building Next.js - React.js projects, and I enjoy working and learning more about how Next.js is making web apps faster and easier to use. I
+            Enthusiastic and self-taught Frontend Developer with a passion for creating dynamic and visually appealing web applications. I studied Civil engineering, and out of curiosity and love of learning I explored the world of programming and found a passion for building websites, and started my journey learning by doing, I’ve acquired skills in building Next.js - React.js projects, and I enjoy working and learning more about how Next.js is making web apps faster and easier to use.
             <br /><br />
             I am actively looking for more exciting opportunities, to grow and dive deeper in the world of Frontend Developement, feel free to contact me any time, You have a project in mind? I am interested to listen..
 
