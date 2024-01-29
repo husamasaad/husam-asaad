@@ -27,6 +27,16 @@ const Resume = () => {
             <div className='border-l flex flex-col items-start gap-2 relative py-6'>
               <div className='flex items-center ml-[-23px]'>
                 <Dot size={45} />
+                <span className='text-lg text-secondary'>December 2023</span>
+              </div>
+              <div className='px-6'>
+                <h4 className='text-3xl'>Back End Development and APIs</h4>
+                <p className='text-xl mt-4'>Free Code Camp</p>
+              </div>
+            </div>
+            <div className='border-l flex flex-col items-start gap-2 relative py-6'>
+              <div className='flex items-center ml-[-23px]'>
+                <Dot size={45} />
                 <span className='text-lg text-secondary'>April 2023</span>
               </div>
               <div className='px-6'>
